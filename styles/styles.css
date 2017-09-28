@@ -1,0 +1,130 @@
+
+#title-photo {
+    height: 75rem;
+    background-image: url(../images/dustin-lee-19666.jpg);
+    background-size: cover;
+    padding-top: 50rem;
+
+}
+#title-text {
+    height: 15rem;
+    width: 55rem;
+    text-align: center;
+    padding-top: 5rem;
+    
+}
+#title-text h1 {
+    font-size: 600%;
+    font-family: Oswald, serif;
+    color: white;
+
+}
+
+#title-text h3 {
+    font-size: 175%;
+    font-family: Oswald, serif;
+    width: 20rem;
+    color: white;
+    margin: 0 15rem;
+
+}
+#about {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    background-color: #32313A;
+    color: white;
+    font-family: Oswald, serif;
+    background-color: #32313A;
+}
+
+#about-copy {
+    height: 35rem;
+    width: 55rem;
+    padding-top: 3rem;
+}
+
+#about-copy h2 {
+    font-size: 300%;
+    padding-bottom: 2rem;
+}
+
+#about-copy p {
+    font-size: 130%;
+}
+
+
+
+#about-image {
+    height: 35rem;
+    padding-top: 5rem;
+    margin-left: 25rem;;
+}
+
+#about-headshot {
+    background-image: url(../images/sam-headshot.JPG);
+    width: 25rem;
+    height: 25rem;
+    display: block;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#skill-sets {
+    height: 50rem;
+    background-image: url(../images/pineapple-supply-co-142104.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Oswald, serif;
+    color: white;
+}
+
+#skill-sets h3{
+    font-size: 400%;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+#skill-sets p{
+    font-size: 200%;
+    padding: 3rem 3rem;
+}
+
+
+#skills h3{
+
+}
+#skills p{
+    
+}
+
+#coursework {
+
+
+}
+#coursework h3{
+
+}
+#skills p{
+
+}
+
+#honors {
+
+
+}
+#honors h3{
+
+}
+#skills p{
+
+}
+
+
+footer {
+    height: 25rem;
+    background-color: #32313A;
+}
+
+
+
