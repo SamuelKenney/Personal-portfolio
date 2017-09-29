@@ -11,14 +11,15 @@
     width: 55rem;
     text-align: center;
     padding-top: 5rem;
-    
+    padding-bottom: 15rem;
+
 }
 #title-text h1 {
     font-size: 600%;
     font-family: Oswald, serif;
     color: white;
-    padding-bottom: 3rem;
-
+    padding-bottom: 4rem;
+    border-bottom: white 5px solid;
 }
 
 #title-text h3 {
@@ -27,6 +28,7 @@
     width: 20rem;
     color: white;
     margin: 0 15rem;
+    padding-top: 2rem;
 
 }
 #about {
@@ -38,23 +40,25 @@
 }
 
 #about-copy {
-
     margin-left: 3rem;
     height: 35rem;
     width: 55%
-
 }
 
 #about-copy h2 {
     font-size: 300%;
-
+    border-bottom: #3A415B 3px solid;
+    padding-bottom: 3rem;
+    width: 35rem;
 }
 
 #about-copy p {
-    border-top: white 3px solid;
     font-size: 130%;
-    padding-top: 3rem;
-    margin-left: 
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    border-bottom: white 3px solid;
+    border-right: white 3px solid;
 }
 
 
@@ -62,6 +66,9 @@
     height: 35rem;
     padding-top: 3rem;
     margin-left: 20rem;
+
+    border-left: white 3px solid;
+    border-top: white 3px solid;
 }
 
 #about-headshot {
@@ -73,28 +80,56 @@
     margin: 0 auto;
 }
 
-#skill-sets {
+#what-i-do{
     height: 50rem;
     background-image: url(../images/pineapple-supply-co-142104.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#skill-sets {
+    height: 50rem;
+    background-color: #202020;
     font-family: Oswald, serif;
     color: white;
+    padding: 
 }
 
-#skill-sets h3{
-    font-size: 400%;
+#skill-sets #h3-skills{
+    font-size: 300%;
     padding-top: 4rem;
     padding-bottom: 3rem;
-    padding-left: 3rem;
-}
-#skill-sets p{
-    font-size: 200%;
-    padding: 3rem 3rem;
+    margin-left: 5rem;
+    width: 10rem;
+    border-bottom: #3A415B 5px solid;
 }
 
+#skill-sets #h3-coursework{
+    font-size: 300%;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    width: 21rem;
+    border-bottom: #3A415B 5px solid;
+}
+
+#skills{
+    margin-top: 4rem;
+    margin-left: 1rem;
+    border-left: white 3px solid;
+    border-top: white 3px solid;
+}
+
+#coursework {
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    border-right: white 3px solid;
+    border-bottom: white 3px solid;
+    width: 65rem;
+    height: 40rem;
+}
 
 #skills ul{
     list-style-type: none;
@@ -104,7 +139,7 @@
 }
 #skills li {
     padding: 2rem;
-    font-size: 275%;
+    font-size: 200%;
 }
 
 #coursework ul{
@@ -114,14 +149,8 @@
     
 }
 #coursework li {
-    padding: 2rem;
+    padding: 1rem;
     font-size: 200%;
 }
-
-footer {
-    height: 25rem;
-    background-color: #202020;
-}
-
 
 
