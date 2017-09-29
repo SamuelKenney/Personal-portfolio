@@ -2,7 +2,10 @@
 #title-photo {
     height: 75rem;
     background-image: url(../images/dustin-lee-19666.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 40rem;
 
 }
@@ -37,6 +40,7 @@
     background-color: #202020;
     color: white;
     font-family: Oswald, serif;
+    height:auto;
 }
 
 #about-copy {
@@ -47,7 +51,7 @@
 
 #about-copy h2 {
     font-size: 300%;
-    border-bottom: #3A415B 2px solid;
+    border-bottom: #455BA5 2px solid;
     padding-bottom: 3rem;
     width: 35rem;
 }
@@ -92,7 +96,7 @@
 #rundown-container h3 {
     color: white;
     width: 20rem;
-    font-size: 250%;
+    font-size: 300%;
     font-family: Oswald, serif;
     border-bottom: white 1px solid;
     padding-bottom: 1rem;
@@ -154,7 +158,7 @@
     margin-left: 5rem;
     width: 9rem;
     height: 5rem;
-    border-bottom: #3A415B 2px solid;
+    border-bottom: #455BA5 2px solid;
 }
 
 #skill-sets #h3-coursework{
@@ -162,7 +166,7 @@
     margin-left: 5rem;
     width: 19rem;
     height: 5rem;
-    border-bottom: #3A415B 2px solid;
+    border-bottom: #455BA5 2px solid;
 }
 
 #skill-sets #h3-honors{
@@ -170,7 +174,7 @@
     margin-left: 5rem;
     width: 12rem;
     height: 5rem;
-    border-bottom: #3A415B 2px solid;
+    border-bottom: #455BA5 2px solid;
 }
 
 #skills{
@@ -228,7 +232,44 @@
     width: 28rem;
 }
 
-
 li:hover{
-    color: #3A415B;
+    color: #455BA5;
+}
+
+#education {
+    background-image: url(../images/sebas-ribas-310260.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#schooling-picture{
+    height:auto;
+}
+
+#schooling {
+    color: white;
+    font-family: Oswald, serif;
+}
+
+#schooling h1{
+    font-size: 300%;
+    padding-bottom: 1rem;
+    width: 15rem;
+    border-bottom: white 2px solid;
+}
+
+
+#schooling h3{
+    font-size: 200%;
+}
+#schooling h4{
+    font-size: 160%;
+}
+
+footer{
+    height: 30rem;
+    background-color: #202020;
 }
