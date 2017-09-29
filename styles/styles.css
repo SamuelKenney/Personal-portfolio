@@ -19,7 +19,7 @@
     font-family: Oswald, serif;
     color: white;
     padding-bottom: 4rem;
-    border-bottom: white 5px solid;
+    border-bottom: white 2px solid;
 }
 
 #title-text h3 {
@@ -47,7 +47,7 @@
 
 #about-copy h2 {
     font-size: 300%;
-    border-bottom: #3A415B 3px solid;
+    border-bottom: #3A415B 2px solid;
     padding-bottom: 3rem;
     width: 35rem;
 }
@@ -57,8 +57,8 @@
     padding-top: 2rem;
     padding-bottom: 3rem;
     padding-right: 2rem;
-    border-bottom: white 3px solid;
-    border-right: white 3px solid;
+    border-bottom: white 1px solid;
+    border-right: white 1px solid;
 }
 
 
@@ -67,8 +67,8 @@
     padding-top: 3rem;
     margin-left: 20rem;
 
-    border-left: white 3px solid;
-    border-top: white 3px solid;
+    border-left: white 1px solid;
+    border-top: white 1px solid;
 }
 
 #about-headshot {
@@ -80,77 +80,155 @@
     margin: 0 auto;
 }
 
-#what-i-do{
-    height: 50rem;
+#rundown{
+    height: auto;
     background-image: url(../images/pineapple-supply-co-142104.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 5rem;
+}
+#rundown-container h3 {
+    color: white;
+    width: 20rem;
+    font-size: 250%;
+    font-family: Oswald, serif;
+    border-bottom: white 1px solid;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+#rundown-container .col-lg-6 {
+    height: 20rem;
+    padding-top: 3rem;
+
+}
+
+#software-dev {
+    border-left: white 1px solid;
+}
+#entrepeneuriship-dev {
+    border-left: white 1px solid;
+}
+
+#rundown h4{
+    color: white;
+    font-size: 175%;
+    font-family: Oswald, serif;
+    border-bottom: white 1px solid;
+    padding-bottom: 1rem;
+}
+#rundown p {
+    color: white;
+    font-family: Oswald, serif;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-size: 125%;
+}
+
+#web-dev p {
+
+}
+#software-dev p {
+    
+}
+#scrum-dev p {
+    
+}
+#entrepeneuriship-dev p {
+    
 }
 
 #skill-sets {
-    height: 50rem;
+    height: auto;
     background-color: #202020;
     font-family: Oswald, serif;
     color: white;
-    padding: 
+    padding-bottom: 3rem;
 }
 
 #skill-sets #h3-skills{
     font-size: 300%;
-    padding-top: 4rem;
-    padding-bottom: 3rem;
     margin-left: 5rem;
-    width: 10rem;
-    border-bottom: #3A415B 5px solid;
+    width: 9rem;
+    height: 5rem;
+    border-bottom: #3A415B 2px solid;
 }
 
 #skill-sets #h3-coursework{
     font-size: 300%;
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-    width: 21rem;
-    border-bottom: #3A415B 5px solid;
+    margin-left: 5rem;
+    width: 19rem;
+    height: 5rem;
+    border-bottom: #3A415B 2px solid;
+}
+
+#skill-sets #h3-honors{
+    font-size: 300%;
+    margin-left: 5rem;
+    width: 12rem;
+    height: 5rem;
+    border-bottom: #3A415B 2px solid;
 }
 
 #skills{
     margin-top: 4rem;
     margin-left: 1rem;
-    border-left: white 3px solid;
-    border-top: white 3px solid;
+    border-left: white 1px solid;
+    border-top: white 1px solid;
 }
 
-#coursework {
+#coursework-and-honors {
     margin-top: 4rem;
     margin-left: 5rem;
     margin-right: 2rem;
-    border-right: white 3px solid;
-    border-bottom: white 3px solid;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
     width: 65rem;
-    height: 40rem;
+    height: auto;
 }
 
 #skills ul{
+    margin-left: 15rem;
     list-style-type: none;
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 45rem;
     
 }
 #skills li {
     padding: 2rem;
-    font-size: 200%;
+    font-size: 125%;
+    width: 11rem;
+    text-align: center;
+    border: white 1px solid;
+    margin: 1rem
 }
 
-#coursework ul{
+
+#coursework-and-honors ul{
     list-style-type: none;
     display:flex;
     flex-wrap: wrap;
     
 }
-#coursework li {
-    padding: 1rem;
-    font-size: 200%;
+#coursework-and-honors li {
+    padding: 1rem 2rem;;
+    font-size: 150%;
+}
+
+#h3-honors {
+    margin-top: 3rWem;
+}
+#honors-list {
+    padding-top: E1rem;
+    width: 28rem;
 }
 
 
+li:hover{
+    color: #3A415B;
+}
