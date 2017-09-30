@@ -1,12 +1,12 @@
 
 #title-photo {
-    height: 75rem;
+    height: 95rem;
     background-image: url(../images/dustin-lee-19666.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 40rem;
+    padding-top: 55rem;
 
 }
 #title-text {
@@ -45,19 +45,19 @@
 
 #about-copy {
     margin-left: 3rem;
-    height: 35rem;
+    height: auto;
     width: 55%
 }
 
 #about-copy h2 {
-    font-size: 300%;
+    font-size: 335%;
     border-bottom: #455BA5 2px solid;
     padding-bottom: 3rem;
     width: 35rem;
 }
 
 #about-copy p {
-    font-size: 130%;
+    font-size: 150%;
     padding-top: 2rem;
     padding-bottom: 3rem;
     padding-right: 2rem;
@@ -67,8 +67,8 @@
 
 
 #about-image {
-    height: 35rem;
-    padding-top: 3rem;
+    height: auto;
+    padding-top: 4rem;
     margin-left: 20rem;
 
     border-left: white 1px solid;
@@ -77,8 +77,8 @@
 
 #about-headshot {
     background-image: url(../images/sam-headshot.JPG);
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
     display: block;
     background-size: cover;
     margin: 0 auto;
@@ -95,22 +95,25 @@
 }
 #rundown-container h3 {
     color: white;
-    width: 20rem;
-    font-size: 300%;
+    width: 23rem;
+    font-size: 350%;
     font-family: Oswald, serif;
     border-bottom: white 1px solid;
     padding-bottom: 1rem;
     margin-top: 4rem;
 }
+#rundown-container img {
+    padding: 1rem 1rem 2rem 1rem;
+}
 
 #rundown-container .col-lg-6 {
-    height: 20rem;
+    height: auto;
     padding-top: 3rem;
 
 }
-
 #software-dev {
     border-left: white 1px solid;
+
 }
 #entrepeneuriship-dev {
     border-left: white 1px solid;
@@ -118,7 +121,7 @@
 
 #rundown h4{
     color: white;
-    font-size: 175%;
+    font-size: 250%;
     font-family: Oswald, serif;
     border-bottom: white 1px solid;
     padding-bottom: 1rem;
@@ -127,9 +130,9 @@
     color: white;
     font-family: Oswald, serif;
     padding-right: 3rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-top: 2rem;
-    font-size: 125%;
+    font-size: 175%;
 }
 
 #web-dev p {
@@ -150,30 +153,31 @@
     background-color: #202020;
     font-family: Oswald, serif;
     color: white;
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
 }
 
 #skill-sets #h3-skills{
-    font-size: 300%;
+    font-size: 325%;
     margin-left: 5rem;
-    width: 9rem;
-    height: 5rem;
+    width: 10rem;
+    height: 6rem;
     border-bottom: #455BA5 2px solid;
 }
 
 #skill-sets #h3-coursework{
-    font-size: 300%;
+    font-size: 325%;
     margin-left: 5rem;
-    width: 19rem;
-    height: 5rem;
+    width: 20rem;
+    height: 6rem;
     border-bottom: #455BA5 2px solid;
 }
 
 #skill-sets #h3-honors{
-    font-size: 300%;
+    font-size: 325%;
     margin-left: 5rem;
+    margin-top: 4rem;
     width: 12rem;
-    height: 5rem;
+    height: 6rem;
     border-bottom: #455BA5 2px solid;
 }
 
@@ -186,11 +190,10 @@
 
 #coursework-and-honors {
     margin-top: 4rem;
-    margin-left: 5rem;
     margin-right: 2rem;
     border-right: white 1px solid;
     border-bottom: white 1px solid;
-    width: 65rem;
+    width: 72rem;
     height: auto;
 }
 
@@ -200,13 +203,13 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 45rem;
+    width: 55rem;
     
 }
 #skills li {
     padding: 2rem;
-    font-size: 125%;
-    width: 11rem;
+    font-size: 175%;
+    width: 13rem;
     text-align: center;
     border: white 1px solid;
     margin: 1rem
@@ -217,11 +220,10 @@
     list-style-type: none;
     display:flex;
     flex-wrap: wrap;
-    
 }
 #coursework-and-honors li {
     padding: 1rem 2rem;;
-    font-size: 150%;
+    font-size: 175%;
 }
 
 #h3-honors {
@@ -235,6 +237,180 @@
 li:hover{
     color: #455BA5;
 }
+
+
+#experience {
+    height: 300rem;
+    background-image: url(../images/tanvi-malik-449.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#experience h1 {
+    color: white;
+    width: 26rem;
+    font-size: 450%;
+    font-family: Oswald, serif;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+#ppg-copy {
+    font-family: Oswald, serif;
+    color: white;
+    padding-left: 4rem;
+    
+}
+#ppg-copy h3{
+    width: 30rem;
+    font-size: 250%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    border-bottom: #455BA5 1px solid;
+}
+
+#ppg-copy p{
+    font-size: 175%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-top: 3rem;
+    border-bottom: white 1px solid;
+    border-left: white 1px solid;
+    
+}
+#ppg-copy img {
+    margin-left: 3rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+}
+
+#ppg-image {
+    height: 57rem;
+    background-image: url(../images/tanvi-malik-449.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#kands-copy {
+    font-family: Oswald, serif;
+    color: white;
+    padding-right: 4rem;
+    text-align: right;
+}
+#kands-copy h3{
+    width: 30rem;
+    font-size: 250%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    border-bottom: #455BA5 1px solid;
+    margin-left: 89rem;
+}
+
+#kands-copy p{
+    font-size: 175%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    border-bottom: white 1px solid;
+    border-right: white 1px solid;
+}
+#kands-copy img {
+    margin-right: 12rem;
+    padding-top: 10rem;
+    padding-left: 6rem;
+    padding-right: 5rem;
+    border-left: white 1px solid;
+    border-top: white 1px solid;
+}
+#kands-image {
+    height: 60rem;
+    background-image: url(../images/tanvi-malik-449.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#graphrite-copy {
+    font-family: Oswald, serif;
+    color: white;
+    padding-left: 4rem;
+}
+
+#graphrite-image {
+    height: 57rem;
+    background-image: url(../images/tanvi-malik-449.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphrite-copy h3{
+    width: 40rem;
+    font-size: 250%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    border-bottom: #455BA5 1px solid;
+}
+
+#graphrite-copy p{
+    font-size: 175%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-top: 3rem;
+    border-bottom: white 1px solid;
+    border-left: white 1px solid;
+}
+
+#graphrite-copy #graphrite-img{
+    margin-left: 2rem;
+    margin-top: 5rem;
+    padding-top: 7rem;
+    padding-right: 6rem;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+}
+
+#graphrite-icon {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+#graphrite-copy a {
+    color: white;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+#graphrite-copy a:hover {
+    color: #455BA5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #education {
     background-image: url(../images/sebas-ribas-310260.jpg);
@@ -268,6 +444,10 @@ li:hover{
 #schooling h4{
     font-size: 160%;
 }
+
+
+
+
 
 footer{
     height: 30rem;
