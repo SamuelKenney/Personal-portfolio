@@ -1,515 +1,976 @@
 
-#title-photo {
-    height: 100rem;
-    background-image: url(../images/tanvi-malik-449.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 45rem;
+    #title-photo {
+        height: 65rem;
+        background-image: url(../images/tanvi-malik-449.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 25rem;
 
-}
-#title-text {
-    height: 15rem;
-    width: 55rem;
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 15rem;
+    }
+    #title-text {
+        height: 15rem;
+        width: 55rem;
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 15rem;
 
-}
-#title-text h1 {
-    font-size: 600%;
-    font-family: Oswald, serif;
-    color: white;
-    padding-bottom: 4rem;
-    border-bottom: white 2px solid;
-}
+    }
+    #title-text h1 {
+        font-size: 600%;
+        font-family: Oswald, serif;
+        color: white;
+        padding-bottom: 4rem;
+        border-bottom: white 2px solid;
+    }
 
-#title-text h3 {
-    font-size: 200%;
-    font-family: Oswald, serif;
-    width: 24rem;
-    color: white;
-    margin: 0 15rem;
-    padding-top: 2rem;
+    #title-text h3 {
+        font-size: 200%;
+        font-family: Oswald, serif;
+        width: 24rem;
+        color: white;
+        margin: 0 15rem;
+        padding-top: 2rem;
 
-}
-#about {
-    padding-top: 5rem;
-    padding-bottom: 6rem;
-    background-color: #202020;
-    color: white;
-    font-family: Oswald, serif;
-    height:auto;
-}
+    }
+    #about {
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+        background-color: #202020;
+        color: white;
+        font-family: Oswald, serif;
+        height:auto;
+    }
 
-#about-copy {
-    margin-left: 3rem;
-    height: auto;
-    width: 55%
-}
+    #about-copy {
+        margin-left: 13rem;
+        height: auto;
+        width: 55%
+    }
 
-#about-copy h2 {
-    font-size: 335%;
-    border-bottom: #455BA5 2px solid;
-    padding-bottom: 3rem;
-    width: 35rem;
-}
+    #about-copy h2 {
+        font-size: 335%;
+        border-bottom: #455BA5 2px solid;
+        padding-bottom: 3rem;
+        width: 35rem;
+    }
 
-#about-copy p {
-    font-size: 150%;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    padding-right: 2rem;
-    border-bottom: white 1px solid;
-    border-right: white 1px solid;
-}
-
-
-#about-image {
-    height: auto;
-    padding-top: 4rem;
-    margin-left: 20rem;
-    border-left: white 1px solid;
-    border-top: white 1px solid;
-}
-
-#about-headshot {
-    background-image: url(../images/sam-headshot.JPG);
-    width: 35rem;
-    height: 35rem;
-    display: block;
-    background-size: cover;
-    margin: 0 auto;
-}
-
-#rundown{
-    height: auto;
-    background-image: url(../images/tanvi-malik-449.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 5rem;
-}
-#rundown-container h3 {
-    color: white;
-    width: 23rem;
-    font-size: 350%;
-    font-family: Oswald, serif;
-    border-bottom: white 1px solid;
-    padding-bottom: 1rem;
-    margin-top: 4rem;
-}
-#rundown-container img {
-    padding: 1rem 1rem 2rem 1rem;
-}
-
-#rundown-container .col-lg-6 {
-    height: auto;
-    padding-top: 3rem;
-}
-
-#rundown-container #web-dev p {
-    font-size: 152%;
-}
-#rundown-container #software-dev p {
-    font-size: 138%;
-}
-#rundown-container #scrum p {
-    font-size: 165%;
-}
-
-#rundown-container #entrepeneuriship-dev p {
-    font-size: 152%;
-}
-
-#software-dev {
-    border-left: white 1px solid;
-    font-size: 115%;
-
-}
-#entrepeneuriship-dev {
-    border-left: white 1px solid;
-}
-
-#rundown h4{
-    color: white;
-    font-size: 250%;
-    font-family: Oswald, serif;
-    border-bottom: white 1px solid;
-    padding-bottom: 1rem;
-}
-#rundown p {
-    color: white;
-    font-family: Oswald, serif;
-    padding-right: 3rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    font-size: 175%;
-}
-
-#skill-sets {
-    height: auto;
-    background-color: #202020;
-    font-family: Oswald, serif;
-    color: white;
-    padding-bottom: 8rem;
-    padding-left: 9rem;
-}
-
-#skill-sets #h3-skills{
-    font-size: 325%;
-    margin-left: 5rem;
-    width: 10rem;
-    height: 6rem;
-    border-bottom: #455BA5 2px solid;
-}
-
-#skill-sets #h3-coursework{
-    font-size: 325%;
-    margin-left: 5rem;
-    width: 20rem;
-    height: 6rem;
-    border-bottom: #455BA5 2px solid;
-}
-
-#skill-sets #h3-honors{
-    font-size: 325%;
-    margin-left: 5rem;
-    margin-top: 4rem;
-    width: 12rem;
-    height: 6rem;
-    border-bottom: #455BA5 2px solid;
-}
-
-#skills{
-    margin-top: 4rem;
-    margin-left: 1rem;
-    border-left: white 1px solid;
-    border-top: white 1px solid;
-}
-
-#coursework-and-honors {
-    margin-top: 4rem;
-    margin-right: 2rem;
-    border-right: white 1px solid;
-    border-bottom: white 1px solid;
-    width: 72rem;
-    height: auto;
-}
-
-#skills ul{
-    margin-left: 15rem;
-    list-style-type: none;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 55rem;
-    
-}
-#skills li {
-    padding: 2rem;
-    font-size: 175%;
-    width: 13rem;
-    text-align: center;
-    border: white 1px solid;
-    margin: 1rem
-}
-
-#coursework-and-honors ul{
-    list-style-type: none;
-    display:flex;
-    flex-wrap: wrap;
-}
-#coursework-and-honors li {
-    padding: 1rem 2rem;;
-    font-size: 175%;
-}
-
-#h3-honors {
-    margin-top: 3rWem;
-}
-#honors-list {
-    padding-top: E1rem;
-    width: 30rem;
-}
-
-#experience {
-    height: 305rem;
-    background-image: url(../images/tanvi-malik-449.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-#experience h1 {
-    color: white;
-    width: 26rem;
-    font-size: 450%;
-    font-family: Oswald, serif;
-    margin-top: 5rem;
-    margin-left: 4rem;
-}
-
-#ppg-copy {
-    font-family: Oswald, serif;
-    color: white;
-    padding-left: 4rem;
-    
-}
-#ppg-copy h3{
-    width: 30rem;
-    font-size: 250%;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-    border-bottom: #455BA5 1px solid;
-}
-
-#ppg-copy p{
-    font-size: 175%;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
-    margin-top: 3rem;
-    border-bottom: white 1px solid;
-    border-left: white 1px solid;
-    
-}
-#ppg-copy img {
-    margin-left: 3rem;
-    padding-top: 10rem;
-    padding-right: 5rem;
-    border-right: white 1px solid;
-    border-top: white 1px solid;
-}
-
-#ppg-image {
-    height: 53rem;
-    background-image: url(../images/tanvi-malik-449.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#kands-copy {
-    font-family: Oswald, serif;
-    color: white;
-    padding-right: 4rem;
-    text-align: right;
-}
-#kands-copy h3{
-    width: 30rem;
-    font-size: 250%;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-    border-bottom: #455BA5 1px solid;
-    margin-left: 89rem;
-}
-
-#kands-copy p{
-    font-size: 175%;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
-    margin-top: 3rem;
-    margin-right: 1rem;
-    border-bottom: white 1px solid;
-    border-right: white 1px solid;
-}
-#kands-copy img {
-    margin-right: 12rem;
-    padding-top: 10rem;
-    padding-left: 6rem;
-    padding-right: 5rem;
-    border-left: white 1px solid;
-    border-top: white 1px solid;
-}
-#kands-image {
-    height: 55rem;
-    background-image: url(../images/tanvi-malik-449.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    #about-copy p {
+        font-size: 150%;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        padding-right: 2rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
 
 
-#graphrite-copy {
-    font-family: Oswald, serif;
-    color: white;
-    padding-left: 4rem;
-}
+    #about-image {
+        height: auto;
+        padding-top: 9rem;
+        padding-left: 3rem;
+        margin-left: 10rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }
 
-#graphrite-image {
-    height: 57rem;
-    background-image: url(../images/tanvi-malik-449.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    #about-headshot {
+        background-image: url(../images/sam-headshot.JPG);
+        width: 35rem;
+        height: 35rem;
+        display: block;
+        background-size: cover;
+        margin: 0 auto;
+    }
 
-#Projects{
-    color: white;
-    width: 26rem;
-    font-size: 450%;
-    font-family: Oswald, serif;
-    margin-left: 4rem;
-}
+    #rundown{
+        height: auto;
+        background-image: url(../images/tanvi-malik-449.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 5rem;
+    }
+    #rundown-container h3 {
+        color: white;
+        width: 23rem;
+        font-size: 350%;
+        font-family: Oswald, serif;
+        border-bottom: white 1px solid;
+        padding-bottom: 1rem;
+        margin-top: 4rem;
+    }
+    #rundown-container img {
+        padding: 1rem 1rem 2rem 1rem;
+    }
 
-#graphrite-copy h3{
-    width: 40rem;
-    font-size: 250%;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-    border-bottom: #455BA5 1px solid;
-}
+    #rundown-container .col-lg-6 {
+        height: auto;
+        padding-top: 3rem;
+    }
 
-#graphrite-copy p{
-    font-size: 175%;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
-    margin-top: 3rem;
-    border-bottom: white 1px solid;
-    border-left: white 1px solid;
-}
+    #rundown-container #web-dev p {
+        font-size: 152%;
+    }
+    #rundown-container #software-dev p {
+        font-size: 138%;
+    }
+    #rundown-container #scrum p {
+        font-size: 165%;
+    }
 
-#graphrite-copy #graphrite-img{
-    margin-left: 2rem;
-    padding-top: 7rem;
-    padding-right: 6rem;
-    border-right: white 1px solid;
-    border-top: white 1px solid;
-}
+    #rundown-container #entrepeneuriship-dev p {
+        font-size: 152%;
+    }
 
-#graphrite-picture {
-    border-radius: 40px;
-}
-#graphrite-icon {
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-}
+    #software-dev {
+        border-left: white 1px solid;
+        font-size: 115%;
 
-#graphrite-copy a {
-    color: white;
-    padding-left: 1rem;
-    text-decoration: none;
-}
-#graphrite-copy a:hover {
-    color: #455BA5;
-}
+    }
+    #entrepeneuriship-dev {
+        border-left: white 1px solid;
+    }
 
-#csharp-copy {
-    font-family: Oswald, serif;
-    color: white;
-    padding-right: 4rem;
-    text-align: right;
-    margin-bottom: 15rem;
-}
-#csharp-copy h3{
-    width: 30rem;
-    font-size: 250%;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-    border-bottom: #455BA5 1px solid;
-    margin-left: 89rem;
-}
+    #rundown h4{
+        color: white;
+        font-size: 250%;
+        font-family: Oswald, serif;
+        border-bottom: white 1px solid;
+        padding-bottom: 1rem;
+    }
+    #rundown p {
+        color: white;
+        font-family: Oswald, serif;
+        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        font-size: 175%;
+    }
 
-#csharp-copy p{
-    font-size: 175%;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
-    margin-top: 3rem;
-    margin-right: 1rem;
-    border-bottom: white 1px solid;
-    border-right: white 1px solid;
-}
-#csharp-copy img {
-    margin-right: 12rem;
-    padding-top: 8rem;
-    padding-left: 6rem;
-    padding-right: 5rem;
-    border-left: white 1px solid;
-    border-top: white 1px solid;
-}
-#csharp-image {
-    height: 55rem;
-    background-image: url(../images/tanvi-malik-449.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    #skill-sets {
+        height: auto;
+        background-color: #202020;
+        font-family: Oswald, serif;
+        color: white;
+        padding-bottom: 8rem;
+    }
 
-#Resume {
-    height: 25rem;
+    #skill-sets #h3-skills{
+        font-size: 300%;
+        margin-left: 5rem;
+        width: 10rem;
+        height: 6rem;
+        border-bottom: #455BA5 2px solid;
+    }
 
-}
-#get-resume{
-    text-align: center;
-}
-#submit {
-    color: white;
-    background-color: #202020;
-    border: none;;
-    height: 15rem;
-    width: 40rem;
-    font-size: 300%;
-    font-family: Oswald, serif;
-    border-radius: 25px;
-}
-#submit:hover{
-    background-color: #455BA5;
-}
+    #skill-sets #h3-coursework{
+        font-size: 300%;
+        margin-left: 5rem;
+        width: 20rem;
+        height: 6rem;
+        border-bottom: #455BA5 2px solid;
+    }
 
-#Links{
-    height: 10rem;
-}
-#Links-container{
-    text-align: center;
-    align-content: center;
-    padding: 0 31rem;
+    #skill-sets #h3-honors{
+        font-size: 300%;
+        margin-left: 5rem;
+        margin-top: 4rem;
+        width: 12rem;
+        height: 6rem;
+        border-bottom: #455BA5 2px solid;
+    }
 
-}
-#LinkedIn, #GitHub, #Bitbucket {
-    height: 9rem;
-    width: 12rem;
-    padding: 3rem;
-    margin: 3rem;
-    background-color: #455BA5;
-    border-radius: 25px;
-}
+    #skills{
+        margin-top: 4rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }
 
-#LinkedIn, #GitHub, #Bitbucket {
-    height: 9rem;
-    width: 12rem;
-    padding: 3rem;
-    margin: 3rem;
-    background-color: black;
-    background-color: #202020;
-    border-radius: 25px;
-}
+    #coursework-and-honors {
+        margin-top: 4rem;
+        border-right: white 1px solid;
+        border-bottom: white 1px solid;
+        height: auto;
+    }
 
-#LinkedIn:hover, #GitHub:hover, #Bitbucket:hover {
-    background-color: #455BA5;
-}
+    #skills ul{
 
-footer{
-    height: 5rem;
-    background-color: #202020;
-    font-size: 200%;
-    font-family: Oswald, serif;
-}
+        list-style-type: none;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 55rem;
 
-footer p {
-    text-align: center;
+    }
+    #skills li {
+        padding: 2rem;
+        font-size: 150%;
+        width: 13rem;
+        text-align: center;
+        border: white 1px solid;
+        margin: 1rem
+    }
+
+    #coursework-and-honors ul{
+        list-style-type: none;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #coursework-and-honors li {
+        padding: 1rem 2rem;;
+        font-size: 150%;
+    }
+
+    #h3-honors {
+        margin-top: 3rem;
+    }
+    #honors-list {
+        padding-top: E1rem;
+        width: 30rem;
+    }
+
+    #experience {
+        height: auto;
+        background-image: url(../images/tanvi-malik-449.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    #experience h1 {
+        color: white;
+        width: 26rem;
+        font-size: 400%;
+        font-family: Oswald, serif;
+        margin-top: 5rem;
+        margin-left: 4rem;
+    }
+
+    #ppg-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-left: 4rem;
+        width: 100%;
+    }
+    #ppg-copy h3{
+        width: 30rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+    }
+
+    #ppg-copy p{
+        font-size: 150%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        border-bottom: white 1px solid;
+        border-left: white 1px solid;
+
+    }
+    #ppg-copy img {
+        padding-top: 3rem;
+        padding-right: 5rem;
+        border-right: white 1px solid;
+        border-top: white 1px solid;
+    }
+    #kands-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-right: 4rem;
+        text-align: right;
+    }
+    #kands-copy h3{
+        width: 30rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+        margin-left: 97rem;
+    }
+
+    #kands-copy p{
+        font-size: 175%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
+    #kands-copy img {
+        padding-top: 10rem;
+        padding-left: 6rem;
+        padding-right: 5rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }
+
+
+    #graphrite-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-left: 4rem;
+    }
+
+    #graphrite-image {
+        height: 57rem;
+        background-image: url(../images/tanvi-malik-449.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #Projects{
+        color: white;
+        width: 26rem;
+        font-size: 400%;
+        font-family: Oswald, serif;
+        margin-left: 4rem;
+    }
+
+    #graphrite-copy h3{
+        width: 40rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+    }
+
+    #graphrite-copy p{
+        font-size: 150%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        border-bottom: white 1px solid;
+        border-left: white 1px solid;
+    }
+
+    #graphrite-copy #graphrite-img{
+        margin-left: 2rem;
+        padding-top: 7rem;
+        padding-right: 6rem;
+        border-right: white 1px solid;
+        border-top: white 1px solid;
+    }
+
+    #graphrite-picture {
+        border-radius: 40px;
+    }
+    #graphrite-icon {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #graphrite-copy a {
+        color: white;
+        padding-left: 1rem;
+        text-decoration: none;
+    }
+    #graphrite-copy a:hover {
+        color: #455BA5;
+    }
+
+    #csharp-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-right: 4rem;
+        text-align: right;
+        margin-bottom: 15rem;
+    }
+    #csharp-copy h3{
+        width: 30rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+        margin-left: 97rem;
+    }
+
+    #csharp-copy p{
+        font-size: 175%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
+    #csharp-copy img {
+        margin-right: 1rem;
+        margin-left: 6rem;
+        padding-top: 6rem;
+        padding-left: 6rem;
+        padding-right: 5rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }
+    #Resume {
+        height: 25rem;
+            
+    }
+    #get-resume{
+        text-align: center;
+    }
+    #submit {
+        color: white;
+        background-color: #202020;
+        border: none;;
+        height: 15rem;
+        width: 40rem;
+        font-size: 300%;
+        font-family: Oswald, serif;
+        border-radius: 25px;
+    }
+    #submit:hover{
+        background-color: #455BA5;
+    }
+
+    #Links{
+        height: auto;
+        margin-bottom: 4rem;
+    }
+    #Links-container{
+        text-align: center;
+        align-content: center;
+        padding: 0 31rem;
+        height: auto;
+    }
+    #LinkedIn, #GitHub, #Bitbucket {
+        height: 9rem;
+        width: 12rem;
+        padding: 3rem;
+        margin: 3rem;
+        background-color: #455BA5;
+        border-radius: 25px;
+    }
+
+    #LinkedIn, #GitHub, #Bitbucket {
+        height: 9rem;
+        width: 12rem;
+        padding: 3rem;
+        margin: 3rem;
+        background-color: black;
+        background-color: #202020;
+        border-radius: 25px;
+    }
+
+    #LinkedIn:hover, #GitHub:hover, #Bitbucket:hover {
+        background-color: #455BA5;
+    }
+
+    footer{
+        height: 5rem;
+        background-color: #202020;
+        font-size: 200%;
+        font-family: Oswald, serif;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+@media only screen and (min-width: 1800px) {
+    #title-photo {
+        height: 100rem;
+        background-image: url(../images/tanvi-malik-449.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 45rem;
+
+    }
+    #title-text {
+        height: 15rem;
+        width: 55rem;
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 15rem;
+
+    }
+    #title-text h1 {
+        font-size: 600%;
+        font-family: Oswald, serif;
+        color: white;
+        padding-bottom: 4rem;
+        border-bottom: white 2px solid;
+    }
+
+    #title-text h3 {
+        font-size: 200%;
+        font-family: Oswald, serif;
+        width: 24rem;
+        color: white;
+        margin: 0 15rem;
+        padding-top: 2rem;
+
+    }
+    #about {
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+        background-color: #202020;
+        color: white;
+        font-family: Oswald, serif;
+        height:auto;
+    }
+
+    #about-copy {
+        margin-left: 3rem;
+        height: auto;
+        width: 55%
+    }
+
+    #about-copy h2 {
+        font-size: 335%;
+        border-bottom: #455BA5 2px solid;
+        padding-bottom: 3rem;
+        width: 35rem;
+    }
+
+    #about-copy p {
+        font-size: 150%;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        padding-right: 2rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
+
+
+    #about-image {
+        height: auto;
+        padding-top: 4rem;
+        margin-left: 20rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }
+
+    #about-headshot {
+        background-image: url(../images/sam-headshot.JPG);
+        width: 35rem;
+        height: 35rem;
+        display: block;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    #rundown{
+        height: auto;
+        background-image: url(../images/tanvi-malik-449.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 5rem;
+    }
+    #rundown-container h3 {
+        color: white;
+        width: 23rem;
+        font-size: 350%;
+        font-family: Oswald, serif;
+        border-bottom: white 1px solid;
+        padding-bottom: 1rem;
+        margin-top: 4rem;
+    }
+    #rundown-container img {
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    #rundown-container .col-lg-6 {
+        height: auto;
+        padding-top: 3rem;
+    }
+
+    #rundown-container #web-dev p {
+        font-size: 152%;
+    }
+    #rundown-container #software-dev p {
+        font-size: 138%;
+    }
+    #rundown-container #scrum p {
+        font-size: 165%;
+    }
+
+    #rundown-container #entrepeneuriship-dev p {
+        font-size: 152%;
+    }
+
+    #software-dev {
+        border-left: white 1px solid;
+        font-size: 115%;
+
+    }
+    #entrepeneuriship-dev {
+        border-left: white 1px solid;
+    }
+
+    #rundown h4{
+        color: white;
+        font-size: 250%;
+        font-family: Oswald, serif;
+        border-bottom: white 1px solid;
+        padding-bottom: 1rem;
+    }
+    #rundown p {
+        color: white;
+        font-family: Oswald, serif;
+        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        font-size: 175%;
+    }
+
+    #skill-sets {
+        height: auto;
+        background-color: #202020;
+        font-family: Oswald, serif;
+        color: white;
+        padding-bottom: 8rem;
+        padding-left: 9rem;
+    }
+
+    #skill-sets #h3-skills{
+        font-size: 325%;
+        margin-left: 5rem;
+        width: 10rem;
+        height: 6rem;
+        border-bottom: #455BA5 2px solid;
+    }
+
+    #skill-sets #h3-coursework{
+        font-size: 325%;
+        margin-left: 5rem;
+        width: 20rem;
+        height: 6rem;
+        border-bottom: #455BA5 2px solid;
+    }
+
+    #skill-sets #h3-honors{
+        font-size: 325%;
+        margin-left: 5rem;
+        margin-top: 4rem;
+        width: 12rem;
+        height: 6rem;
+        border-bottom: #455BA5 2px solid;
+    }
+
+    #skills{
+        margin-top: 4rem;
+        margin-left: 1rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }
+
+    #coursework-and-honors {
+        margin-top: 4rem;
+        margin-right: 2rem;
+        border-right: white 1px solid;
+        border-bottom: white 1px solid;
+        width: 72rem;
+        height: auto;
+    }
+
+    #skills ul{
+        margin-left: 15rem;
+        list-style-type: none;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 55rem;
+
+    }
+    #skills li {
+        padding: 2rem;
+        font-size: 175%;
+        width: 13rem;
+        text-align: center;
+        border: white 1px solid;
+        margin: 1rem
+    }
+
+    #coursework-and-honors ul{
+        list-style-type: none;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #coursework-and-honors li {
+        padding: 1rem 2rem;;
+        font-size: 175%;
+    }
+
+    #h3-honors {
+        margin-top: 3rWem;
+    }
+    #honors-list {
+        padding-top: E1rem;
+        width: 30rem;
+    }
+
+    #experience {
+        height: auto;
+        background-image: url(../images/tanvi-malik-449.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    #experience h1 {
+        color: white;
+        width: 26rem;
+        font-size: 450%;
+        font-family: Oswald, serif;
+        margin-top: 5rem;
+        margin-left: 4rem;
+    }
+
+    #ppg-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-left: 4rem;
+
+    }
+    #ppg-copy h3{
+        width: 30rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+    }
+
+    #ppg-copy p{
+        font-size: 175%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        border-bottom: white 1px solid;
+        border-left: white 1px solid;
+
+    }
+    #ppg-copy img {
+        margin-left: 3rem;
+        padding-top: 10rem;
+        padding-right: 5rem;
+        border-right: white 1px solid;
+        border-top: white 1px solid;
+    }
+
+    #kands-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-right: 4rem;
+        text-align: right;
+    }
+    #kands-copy h3{
+        width: 30rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+        margin-left: 152rem;
+    }
+
+    #kands-copy p{
+        font-size: 175%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 2rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
+    #kands-copy img {
+
+        padding-top: 6rem;
+        padding-left: 5rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }
+
+    #graphrite-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-left: 4rem;
+    }
+
+    #graphrite-image {
+        height: 57rem;
+        background-image: url(../images/tanvi-malik-449.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #Projects{
+        color: white;
+        width: 26rem;
+        font-size: 450%;
+        font-family: Oswald, serif;
+        margin-left: 4rem;
+    }
+
+    #graphrite-copy h3{
+        width: 40rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+    }
+
+    #graphrite-copy p{
+        font-size: 175%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        border-bottom: white 1px solid;
+        border-left: white 1px solid;
+    }
+
+    #graphrite-copy #graphrite-img{
+        width: 19%;
+        margin-left: 2rem;
+        padding-top: 7rem;
+        border-right: white 1px solid;
+        border-top: white 1px solid;
+    }
+
+    #graphrite-picture {
+        border-radius: 40px;
+    }
+    #graphrite-icon {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #graphrite-copy a {
+        color: white;
+        padding-left: 1rem;
+        text-decoration: none;
+    }
+    #graphrite-copy a:hover {
+        color: #455BA5;
+    }
+
+    #csharp-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-right: 4rem;
+        text-align: right;
+        margin-bottom: 15rem;
+    }
+    #csharp-copy h3{
+        width: 30rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+        margin-left: 152rem;
+    }
+
+    #csharp-copy p{
+        font-size: 175%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
+    #csharp-copy img {
+        margin-right: 12rem;
+        padding-top: 8rem;
+        padding-left: 6rem;
+        padding-right: 5rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }s
+    #Resume {
+        height: 25rem;
+
+    }
+    #get-resume{
+        text-align: center;
+    }
+    #submit {
+        margin-bottom: 10rem;
+        color: white;
+        background-color: #202020;
+        border: none;;
+        height: 15rem;
+        width: 40rem;
+        font-size: 300%;
+        font-family: Oswald, serif;
+        border-radius: 25px;
+    }
+    #submit:hover{
+        background-color: #455BA5;
+    }
+
+    #Links{
+        height: auto;
+        margin-bottom: 10rem;
+    }
+    #Links-container{
+        text-align: center;
+        align-content: center;
+        padding: 0 31rem;
+
+    }
+    #LinkedIn, #GitHub, #Bitbucket {
+        height: 9rem;
+        width: 12rem;
+        padding: 3rem;
+        margin: 3rem;
+        background-color: #455BA5;
+        border-radius: 25px;
+    }
+
+    #LinkedIn, #GitHub, #Bitbucket {
+        height: 9rem;
+        width: 12rem;
+        padding: 3rem;
+        margin: 3rem;
+        background-color: black;
+        background-color: #202020;
+        border-radius: 25px;
+    }
+
+    #LinkedIn:hover, #GitHub:hover, #Bitbucket:hover {
+        background-color: #455BA5;
+    }
+
+    footer{
+        height: 5rem;
+        background-color: #202020;
+        font-size: 200%;
+        font-family: Oswald, serif;
+    }
+
+    footer p {
+        text-align: center;
+    }
 }
