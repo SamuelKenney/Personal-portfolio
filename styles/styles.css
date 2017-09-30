@@ -472,8 +472,7 @@ li:hover{
     width: 12rem;
     padding: 3rem;
     margin: 3rem;
-    background-color: black;
-    background-color: #202020;
+    background-color: #455BA5;
     border-radius: 25px;
 }
 
@@ -485,6 +484,10 @@ li:hover{
     background-color: black;
     background-color: #202020;
     border-radius: 25px;
+}
+
+#LinkedIn:hover, #GitHub:hover, #Bitbucket:hover {
+    background-color: #455BA5;
 }
 
 footer{
