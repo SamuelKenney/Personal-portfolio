@@ -1,12 +1,12 @@
 
 #title-photo {
-    height: 95rem;
-    background-image: url(../images/dustin-lee-19666.jpg);
+    height: 100rem;
+    background-image: url(../images/tanvi-malik-449.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 55rem;
+    padding-top: 45rem;
 
 }
 #title-text {
@@ -26,9 +26,9 @@
 }
 
 #title-text h3 {
-    font-size: 175%;
+    font-size: 200%;
     font-family: Oswald, serif;
-    width: 20rem;
+    width: 24rem;
     color: white;
     margin: 0 15rem;
     padding-top: 2rem;
@@ -85,7 +85,7 @@
 
 #rundown{
     height: auto;
-    background-image: url(../images/pineapple-supply-co-142104.jpg);
+    background-image: url(../images/tanvi-malik-449.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -111,7 +111,7 @@
 }
 
 #rundown-container #web-dev p {
-    font-size: 157%;
+    font-size: 152%;
 }
 #rundown-container #software-dev p {
     font-size: 138%;
@@ -121,7 +121,7 @@
 }
 
 #rundown-container #entrepeneuriship-dev p {
-    font-size: 157%;
+    font-size: 152%;
 }
 
 #software-dev {
@@ -155,6 +155,7 @@
     font-family: Oswald, serif;
     color: white;
     padding-bottom: 8rem;
+    padding-left: 9rem;
 }
 
 #skill-sets #h3-skills{
@@ -235,7 +236,7 @@
 }
 
 #experience {
-    height: 300rem;
+    height: 305rem;
     background-image: url(../images/tanvi-malik-449.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -382,13 +383,15 @@
 
 #graphrite-copy #graphrite-img{
     margin-left: 2rem;
-    margin-top: 5rem;
     padding-top: 7rem;
     padding-right: 6rem;
     border-right: white 1px solid;
     border-top: white 1px solid;
 }
 
+#graphrite-picture {
+    border-radius: 40px;
+}
 #graphrite-icon {
     padding-left: 1rem;
     padding-bottom: 1rem;
@@ -503,4 +506,10 @@
 footer{
     height: 5rem;
     background-color: #202020;
+    font-size: 200%;
+    font-family: Oswald, serif;
+}
+
+footer p {
+    text-align: center;
 }
