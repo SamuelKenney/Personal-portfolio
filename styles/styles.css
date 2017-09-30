@@ -1,3 +1,4 @@
+@media only screen and (max-width: 1000px) {
 #title-photo {
         height: 170rem;
         background-image: url(../images/tanvi-malik-449.jpg);
@@ -450,10 +451,10 @@
     footer p {
         text-align: center;
     }
-
-@media only screen and (min-width: 700px) (max-width: 1350px) {
+}
+@media only screen and (min-width: 1000px) and (max-width: 1350px) {
     #title-photo {
-        height: 65rem;;
+        height: 80rem;
         background-image: url(../images/tanvi-malik-449.jpg);
         background-attachment: fixed;
         background-position: center;
@@ -940,7 +941,6 @@
         text-align: center;
     }
 }
-
 @media only screen and (min-width: 1350px) and (max-width: 1800px) {
     #title-photo {
         height: 65rem;
@@ -1329,7 +1329,6 @@
     #csharp-copy {
         font-family: Oswald, serif;
         color: white;
-        padding-right: 4rem;
         text-align: right;
         margin-bottom: 15rem;
     }
@@ -1339,7 +1338,7 @@
         padding-bottom: 1rem;
         padding-top: 2rem;
         border-bottom: #455BA5 1px solid;
-        margin-left: 97rem;
+        margin-left: 99rem;
     }
 
     #csharp-copy p{
@@ -1393,15 +1392,6 @@
         padding: 0 31rem;
         height: auto;
     }
-    #LinkedIn, #GitHub, #Bitbucket {
-        height: 9rem;
-        width: 12rem;
-        padding: 3rem;
-        margin: 3rem;
-        background-color: #455BA5;
-        border-radius: 25px;
-    }
-
     #LinkedIn, #GitHub, #Bitbucket {
         height: 9rem;
         width: 12rem;
@@ -1888,16 +1878,6 @@
         width: 12rem;
         padding: 3rem;
         margin: 3rem;
-        background-color: #455BA5;
-        border-radius: 25px;
-    }
-
-    #LinkedIn, #GitHub, #Bitbucket {
-        height: 9rem;
-        width: 12rem;
-        padding: 3rem;
-        margin: 3rem;
-        background-color: black;
         background-color: #202020;
         border-radius: 25px;
     }
