@@ -108,10 +108,25 @@
 #rundown-container .col-lg-6 {
     height: auto;
     padding-top: 3rem;
-
 }
+
+#rundown-container #web-dev p {
+    font-size: 157%;
+}
+#rundown-container #software-dev p {
+    font-size: 138%;
+}
+#rundown-container #scrum p {
+    font-size: 165%;
+}
+
+#rundown-container #entrepeneuriship-dev p {
+    font-size: 157%;
+}
+
 #software-dev {
     border-left: white 1px solid;
+    font-size: 115%;
 
 }
 #entrepeneuriship-dev {
@@ -218,11 +233,6 @@
     padding-top: E1rem;
     width: 30rem;
 }
-
-li:hover{
-    color: #455BA5;
-}
-
 
 #experience {
     height: 300rem;
@@ -491,6 +501,6 @@ li:hover{
 }
 
 footer{
-    height: 30rem;
+    height: 5rem;
     background-color: #202020;
 }
