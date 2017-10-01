@@ -89,7 +89,7 @@
     #rundown-container h3 {
         color: white;
         width:auto;
-        font-size: 850%;
+        font-size: 800%;
         font-family: Oswald, serif;
         border-bottom: white 1px solid;
         padding-bottom: 1rem;
@@ -105,17 +105,17 @@
     }
 
     #rundown-container #web-dev p {
-        font-size: 352%;
+        font-size: 300%;
     }
     #rundown-container #software-dev p {
-        font-size: 352%;
+        font-size: 300%;
     }
     #rundown-container #scrum p {
-        font-size: 352%;
+        font-size: 300%;
     }
 
     #rundown-container #entrepeneuriship-dev p {
-        font-size: 352%;
+        font-size: 300%;
     }
 
     #software-dev {
@@ -130,7 +130,7 @@
 
     #rundown h4{
         color: white;
-        font-size: 600%;
+        font-size: 550%;
         width: auto;
         padding-left: 1rem;
         font-family: Oswald, serif;
@@ -191,7 +191,7 @@
     }
     #skills li {
         padding: 2rem;
-        font-size: 500%;
+        font-size: 375%;
         text-align: center;
         border: white 1px solid;
         margin: 1rem
@@ -205,7 +205,7 @@
     }
     #coursework-and-honors li {
         padding: 1rem 2rem;;
-        font-size: 500%;
+        font-size: 375%;
         text-align: center;
     }
 
@@ -227,10 +227,10 @@
     }
     #experience h1 {
         color: white;
-        font-size: 300%;
+        font-size: 550%;
         font-family: Oswald, serif;
-        margin-top: 5rem;
         margin-left: 4rem;
+        padding-top: 15rem;
     }
 
     #ppg-copy {
@@ -242,21 +242,30 @@
     }
     #ppg-copy h3{
         width: auto;
-        font-size: 150%;
+        font-size: 350%;
         padding-bottom: 1rem;
         padding-top: 2rem;
         border-bottom: #455BA5 1px solid;
         text-align: left;
     }
+    
+    #ppg-copy h4{
+        
+        width: auto;
+        font-size: 200%;
+        text-align: left;
+    }
 
     #ppg-copy p{
         padding-top: 2rem;
-        font-size: 125%;
+        font-size: 300%;
     }
     #ppg-copy img {
+        display: flex;
+        padding-top: 5rem;
         justify-content: center;
-        width: 30%;
-        padding-top: 2rem;
+        width: 50%;
+        padding-left:29rem;
     }
     #kands-copy {
         font-family: Oswald, serif;
@@ -266,35 +275,31 @@
     }
     #kands-copy h3{
         width: auto;
-        font-size: 250%;
+        font-size: 350%;
         padding-bottom: 1rem;
-        padding-top: 2rem;
+        padding-top: 7rem;
         border-bottom: #455BA5 1px solid;
         text-align: left;
     }
     #kands-copy h4{
         width: auto;
-        font-size: 125%;
-        text-align: left;   
+        font-size: 200%;
+        text-align: left;  
     }
 
     #kands-copy p{
-        font-size: 175%;
+        font-size: 350%;
         padding-top: 3rem;
-        padding-bottom: 5rem;
         padding-right: 4rem;
         padding-left: 4rem;
         margin-top: 3rem;
         margin-right: 1rem;
-        border-bottom: white 1px solid;
-        border-right: white 1px solid;
+        text-align: left;
     }
     #kands-copy img {
-        padding-top: 10rem;
-        padding-left: 6rem;
-        padding-right: 5rem;
-        border-left: white 1px solid;
-        border-top: white 1px solid;
+        margin-top: 5rem;
+        padding-right: 40rem;
+        width: 60%;
     }
 
 
@@ -315,33 +320,33 @@
 
     #graphrite-copy h3{
         width: auto;
-        font-size: 250%;
+        font-size: 350%;
         padding-bottom: 1rem;
-        padding-top: 2rem;
+        padding-top: 7rem;
         border-bottom: #455BA5 1px solid;
+        text-align: left;
+    }
+    
+    #graphrite-copy h4{
+        width: auto;
+        font-size: 200%;
+        text-align: left;  
     }
 
     #graphrite-copy p{
-        font-size: 150%;
+        font-size: 350%;
         padding-top: 3rem;
         padding-bottom: 5rem;
         padding-right: 4rem;
         padding-left: 4rem;
         margin-top: 3rem;
-        border-bottom: white 1px solid;
-        border-left: white 1px solid;
-    }
-
-    #graphrite-copy #graphrite-img{
-        margin-left: 2rem;
-        padding-top: 7rem;
-        padding-right: 32rem;
-        border-right: white 1px solid;
-        border-top: white 1px solid;
     }
 
     #graphrite-picture {
+        margin-left: 20rem;
         border-radius: 40px;
+        width: 50%;
+        margin-bottom: 9rem;
     }
     #graphrite-icon {
         padding-left: 1rem;
@@ -365,37 +370,33 @@
         margin-bottom: 15rem;
     }
     #csharp-copy h3{
-        width:auto;
-        font-size: 250%;
+        width: auto;
+        font-size: 350%;
         padding-bottom: 1rem;
-        padding-top: 2rem;
+        padding-top: 7rem;
         border-bottom: #455BA5 1px solid;
         text-align: left;
     }
     #csharp-copy h4{
-        width: auto;
-        font-size: 125%;
+         width: auto;
+        font-size: 200%;
         text-align: left;   
     }
 
     #csharp-copy p{
-        font-size: 175%;
+        text-align: left;
+        font-size: 350%;
         padding-top: 3rem;
         padding-bottom: 5rem;
         padding-right: 4rem;
         padding-left: 4rem;
         margin-top: 3rem;
-        margin-right: 1rem;
-        border-bottom: white 1px solid;
-        border-right: white 1px solid;
+
     }
     #csharp-copy img {
-        margin-right: 1rem;
-        padding-top: 6rem;
-        padding-left: 6rem;
-        padding-right: 5rem;
-        border-left: white 1px solid;
-        border-top: white 1px solid;
+        margin-top: 5rem;
+        padding-right: 40rem;
+        width: 65%;
     }
     #Resume {
         height: auto;
@@ -410,7 +411,7 @@
         border: none;;
         height: 15rem;
         width: auto;
-        font-size: 300%;
+        font-size: 500%;
         font-family: Oswald, serif;
         border-radius: 25px;
     }
@@ -427,12 +428,10 @@
         justify-content: center;
     }
     #LinkedIn, #GitHub, #Bitbucket {
-        justify-content: center;
         height: 9rem;
+        width: 10rem;
         padding: 3rem;
-        margin: 3rem;
-        width: 30%;
-        background-color: black;
+        margin: 3rem 28rem;;
         background-color: #202020;
         border-radius: 25px;
     }
