@@ -1228,12 +1228,19 @@
         text-align: right;
     }
     #kands-copy h3{
-        width: 30rem;
+        margin-left: 3rem;
+        width: 23rem;
         font-size: 250%;
         padding-bottom: 1rem;
         padding-top: 2rem;
         border-bottom: #455BA5 1px solid;
-        margin-left: 97rem;
+        text-align: left;  
+    }
+    #kands-copy h4{
+        width: auto;
+        font-size: 150%;
+        text-align: left;  
+        padding-left: 3rem;
     }
 
     #kands-copy p{
@@ -1248,7 +1255,7 @@
         border-right: white 1px solid;
     }
     #kands-copy img {
-        padding-top: 10rem;
+        padding-top: 15rem;
         padding-left: 6rem;
         padding-right: 5rem;
         border-left: white 1px solid;
@@ -1330,12 +1337,20 @@
         margin-bottom: 15rem;
     }
     #csharp-copy h3{
-        width: 30rem;
+        margin-left: 3rem;
+        width: 25rem;
         font-size: 250%;
         padding-bottom: 1rem;
         padding-top: 2rem;
         border-bottom: #455BA5 1px solid;
-        margin-left: 99rem;
+        text-align: left;  
+    }
+    
+    #csharp-copy h4{
+        width: auto;
+        font-size: 150%;
+        text-align: left;  
+        padding-left: 3rem;
     }
 
     #csharp-copy p{
@@ -1709,12 +1724,19 @@
         text-align: right;
     }
     #kands-copy h3{
-        width: 30rem;
+        margin-left: 3rem;
+        width: 23rem;
         font-size: 250%;
         padding-bottom: 1rem;
         padding-top: 2rem;
         border-bottom: #455BA5 1px solid;
-        margin-left: 152rem;
+        text-align: left;  
+    }
+    #kands-copy h4{
+        width: auto;
+        font-size: 150%;
+        text-align: left;  
+        padding-left: 3rem;
     }
 
     #kands-copy p{
@@ -1811,12 +1833,20 @@
         margin-bottom: 15rem;
     }
     #csharp-copy h3{
-        width: 30rem;
+        margin-left: 3rem;
+        width: 25rem;
         font-size: 250%;
         padding-bottom: 1rem;
         padding-top: 2rem;
         border-bottom: #455BA5 1px solid;
-        margin-left: 152rem;
+        text-align: left;  
+    }
+    
+    #csharp-copy h4{
+        width: auto;
+        font-size: 150%;
+        text-align: left;  
+        padding-left: 3rem;
     }
 
     #csharp-copy p{
@@ -1825,19 +1855,20 @@
         padding-bottom: 5rem;
         padding-right: 4rem;
         padding-left: 4rem;
-        margin-top: 3rem;
+        margin-top: 10rem;
         margin-right: 1rem;
         border-bottom: white 1px solid;
         border-right: white 1px solid;
     }
     #csharp-copy img {
         margin-right: 12rem;
-        padding-top: 8rem;
+        padding-top: 4rem;
         padding-left: 6rem;
         padding-right: 5rem;
+        margin-top: 4rem;
         border-left: white 1px solid;
         border-top: white 1px solid;
-    }s
+    }
     #Resume {
         height: 25rem;
 
