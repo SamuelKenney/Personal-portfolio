@@ -261,11 +261,9 @@
         font-size: 300%;
     }
     #ppg-copy img {
-        display: flex;
-        padding-top: 5rem;
-        justify-content: center;
-        width: 50%;
-        padding-left:29rem;
+        margin-top: 5rem;
+        padding-left: 30rem;
+        width: 60%;
     }
     #kands-copy {
         font-family: Oswald, serif;
