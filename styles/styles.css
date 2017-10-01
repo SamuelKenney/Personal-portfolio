@@ -227,7 +227,7 @@
     }
     #experience h1 {
         color: white;
-        font-size: 550%;
+        font-size: 600%;
         font-family: Oswald, serif;
         margin-left: 4rem;
         padding-top: 15rem;
@@ -242,7 +242,7 @@
     }
     #ppg-copy h3{
         width: auto;
-        font-size: 350%;
+        font-size: 400%;
         padding-bottom: 1rem;
         padding-top: 2rem;
         border-bottom: #455BA5 1px solid;
@@ -252,7 +252,7 @@
     #ppg-copy h4{
         
         width: auto;
-        font-size: 200%;
+        font-size: 250%;
         text-align: left;
     }
 
@@ -273,7 +273,7 @@
     }
     #kands-copy h3{
         width: auto;
-        font-size: 350%;
+        font-size: 400%;
         padding-bottom: 1rem;
         padding-top: 7rem;
         border-bottom: #455BA5 1px solid;
@@ -281,7 +281,7 @@
     }
     #kands-copy h4{
         width: auto;
-        font-size: 200%;
+        font-size: 250%;
         text-align: left;  
     }
 
@@ -318,7 +318,7 @@
 
     #graphrite-copy h3{
         width: auto;
-        font-size: 350%;
+        font-size: 400%;
         padding-bottom: 1rem;
         padding-top: 7rem;
         border-bottom: #455BA5 1px solid;
@@ -327,7 +327,7 @@
     
     #graphrite-copy h4{
         width: auto;
-        font-size: 200%;
+        font-size: 250%;
         text-align: left;  
     }
 
@@ -369,7 +369,7 @@
     }
     #csharp-copy h3{
         width: auto;
-        font-size: 350%;
+        font-size: 400%;
         padding-bottom: 1rem;
         padding-top: 7rem;
         border-bottom: #455BA5 1px solid;
@@ -377,7 +377,7 @@
     }
     #csharp-copy h4{
          width: auto;
-        font-size: 200%;
+        font-size: 250%;
         text-align: left;   
     }
 
@@ -426,12 +426,14 @@
         justify-content: center;
     }
     #LinkedIn, #GitHub, #Bitbucket {
-        height: 9rem;
-        width: 10rem;
+        height: 10rem;
+        width: 15rem;
         padding: 3rem;
         margin: 3rem 28rem;;
         background-color: #202020;
         border-radius: 25px;
+        justify-content:center;
+        text-align: center;
     }
 
     #LinkedIn:hover, #GitHub:hover, #Bitbucket:hover {
