@@ -1247,7 +1247,7 @@
 
     #kands-copy p{
         font-size: 175%;
-        padding-top: 3rem;
+        padding-top: 5rem;
         padding-bottom: 5rem;
         padding-right: 4rem;
         padding-left: 4rem;
@@ -1257,9 +1257,11 @@
         border-right: white 1px solid;
     }
     #kands-copy img {
-        padding-top: 15rem;
+        margin-top: 3rem;
+        padding-top: 6rem;
         padding-left: 6rem;
         padding-right: 5rem;
+        padding-bottom: 4rem;
         border-left: white 1px solid;
         border-top: white 1px solid;
     }
@@ -1747,15 +1749,16 @@
         padding-bottom: 5rem;
         padding-right: 2rem;
         padding-left: 4rem;
-        margin-top: 3rem;
+        margin-top: 6rem;
         margin-right: 1rem;
         border-bottom: white 1px solid;
         border-right: white 1px solid;
     }
     #kands-copy img {
-
-        padding-top: 6rem;
+        margin-top: 3rem;
+        padding-top: 5rem;
         padding-left: 5rem;
+        padding-bottom: 3rem;
         border-left: white 1px solid;
         border-top: white 1px solid;
     }
