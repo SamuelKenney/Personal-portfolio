@@ -70,7 +70,7 @@
     }
 
     #about-headshot {
-        background-image: url(../images/sam-headshot.JPG);
+        background-image: url(../images/headshot.JPG);
         width: 60rem;
         height: 60rem;
         display: block;
@@ -186,15 +186,15 @@
         list-style-type: none;
         display:flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: left;
 
     }
     #skills li {
-        padding: 2rem;
-        font-size: 375%;
-        text-align: center;
-        border: white 1px solid;
-        margin: 1rem
+        padding: 1rem;
+        font-size: 300%;
+        text-align: left;
+        border: white 5px solid;
+        margin: 4rem
     }
 
     #coursework-and-honors ul{
@@ -205,7 +205,7 @@
     }
     #coursework-and-honors li {
         padding: 1rem 2rem;;
-        font-size: 375%;
+        font-size: 350%;
         text-align: center;
     }
 
@@ -231,6 +231,41 @@
         font-family: Oswald, serif;
         margin-left: 4rem;
         padding-top: 15rem;
+    }
+	
+	#ntap-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-left: 4rem;
+        text-align: right;
+    }
+    #ntap-copy h3{
+        width: auto;
+        font-size: 400%;
+        padding-bottom: 1rem;
+        padding-top: 7rem;
+        border-bottom: #455BA5 1px solid;
+        text-align: left;
+    }
+    #ntap-copy h4{
+        width: auto;
+        font-size: 250%;
+        text-align: left;  
+    }
+
+    #ntap-copy p{
+        font-size: 350%;
+        padding-top: 3rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        text-align: left;
+    }
+    #ntap-copy img {
+        margin-top: 5rem;
+		padding-right: 20rem;
+        width: 80%;
     }
 
     #ppg-copy {
@@ -529,7 +564,7 @@
     }
 
     #about-headshot {
-        background-image: url(../images/sam-headshot.JPG);
+        background-image: url(../images/headshot.JPG);
         width: 35rem;
         height: 35rem;
         display: block;
@@ -701,6 +736,45 @@
         font-family: Oswald, serif;
         margin-top: 5rem;
         margin-left: 4rem;
+    }
+	
+	#ntap-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-left: 4rem;
+        text-align: right;
+    }
+    #ntap-copy h3{
+        width: 30rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+        text-align: left;
+    }
+    #ntap-copy h4{
+        width: 30rem;
+        font-size: 125%;
+        text-align: left;   
+    }
+
+    #ntap-copy p{
+        font-size: 175%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
+    #ntap-copy img {
+        padding-top: 10rem;
+        padding-left: 6rem;
+        padding-right: 5rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
     }
 
     #ppg-copy {
@@ -1018,7 +1092,7 @@
     }
 
     #about-headshot {
-        background-image: url(../images/sam-headshot.JPG);
+        background-image: url(../images/headshot.JPG);
         width: 35rem;
         height: 35rem;
         display: block;
@@ -1190,6 +1264,49 @@
         font-family: Oswald, serif;
         margin-top: 5rem;
         margin-left: 4rem;
+    }
+	
+	#ntap-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-right: 4rem;
+        text-align: right;
+    }
+    #ntap-copy h3{
+        margin-left: 3rem;
+        width: 23rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+        text-align: left;  
+    }
+    #ntap-copy h4{
+        width: auto;
+        font-size: 150%;
+        text-align: left;  
+        padding-left: 3rem;
+    }
+
+    #ntap-copy p{
+        font-size: 175%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
+    #ntap-copy img {
+        margin-top: 3rem;
+        padding-top: 6rem;
+        padding-left: 6rem;
+        padding-right: 5rem;
+        padding-bottom: 4rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
     }
 
     #ppg-copy {
@@ -1511,7 +1628,7 @@
     }
 
     #about-headshot {
-        background-image: url(../images/sam-headshot.JPG);
+        background-image: url(../images/headshot.JPG);
         width: 35rem;
         height: 35rem;
         display: block;
@@ -1647,7 +1764,7 @@
     #skills li {
         padding: 2rem;
         font-size: 175%;
-        width: 13rem;
+        width: 15rem;
         text-align: center;
         border: white 1px solid;
         margin: 1rem
@@ -1688,7 +1805,50 @@
         margin-top: 5rem;
         margin-left: 4rem;
     }
+	
+	#ntap-copy {
+        font-family: Oswald, serif;
+        color: white;
+        padding-right: 10rem;
+        text-align: right;
+    }
+    #ntap-copy h3{
+        margin-left: 3rem;
+        width: 23rem;
+        font-size: 250%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        border-bottom: #455BA5 1px solid;
+        text-align: left;  
+    }
+    #ntap-copy h4{
+        width: auto;
+        font-size: 150%;
+        text-align: left;  
+        padding-left: 3rem;
+		padding-right: 10rem;
+    }
 
+    #ntap-copy p{
+        font-size: 175%;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-right: 2rem;
+        padding-left: 4rem;
+        margin-top: 6rem;
+        margin-right: 10rem;
+        border-bottom: white 1px solid;
+        border-right: white 1px solid;
+    }
+    #ntap-copy img {
+        margin-top: 3rem;
+        padding-top: 5rem;
+        padding-left: 5rem;
+        padding-bottom: 3rem;
+        border-left: white 1px solid;
+        border-top: white 1px solid;
+    }
+	
     #ppg-copy {
         font-family: Oswald, serif;
         color: white;
