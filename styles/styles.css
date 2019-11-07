@@ -1293,7 +1293,7 @@
         padding-top: 5rem;
         padding-bottom: 5rem;
         padding-right: 4rem;
-        padding-left: 4rem;
+        padding-left: 15rem;
         margin-top: 3rem;
         margin-right: 1rem;
         border-bottom: white 1px solid;
@@ -1541,7 +1541,7 @@
 
     footer{
         height: 5rem;
-        background-color: #202020;
+        background-color: #101010;
         font-size: 200%;
         font-family: Oswald, serif;
     }
