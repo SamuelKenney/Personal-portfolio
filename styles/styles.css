@@ -274,7 +274,7 @@
     #ppg-copy {
         font-family: Oswald, serif;
         color: white;
-        padding-left: 8rem;
+        padding-left: 4rem;
         width: 100%;
         justify-content: center;
     }
@@ -296,6 +296,7 @@
 
     #ppg-copy p{
         padding-top: 2rem;
+		    padding-left: 4rem;
         font-size: 300%;
     }
     #ppg-copy img {
