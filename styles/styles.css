@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1000px) {
-#title-photo {
+	#title-photo {
         height: 170rem;
         background-image: url(../images/tanvi-malik-449.jpg);
         background-attachment: fixed;
@@ -9,6 +9,7 @@
         padding-top: 65rem;
 
     }
+
     #title-text {
         height: 15rem;
         width: auto;
@@ -70,7 +71,7 @@
     }
 
     #about-headshot {
-        background-image: url(../images/headshot.JPG);
+        background-image: url(../images/headshot.jpg);
         width: 60rem;
         height: 60rem;
         display: block;
@@ -158,6 +159,7 @@
         width: auto;
         border-bottom: #455BA5 2px solid;
         margin-bottom: 4rem;
+		margin-top: 0px;
     }
 
     #skill-sets #h3-coursework{
@@ -186,7 +188,7 @@
         list-style-type: none;
         display:flex;
         flex-wrap: wrap;
-        justify-content: left;
+        justify-content: center;
 
     }
     #skills li {
@@ -231,6 +233,7 @@
         font-family: Oswald, serif;
         margin-left: 4rem;
         padding-top: 15rem;
+		margin-top: 0px;
     }
 	
 	#ntap-copy {
@@ -331,8 +334,9 @@
     }
     #kands-copy img {
         margin-top: 5rem;
-        padding-right: 40rem;
-        width: 60%;
+		padding-right: 30rem;
+		width: 60%;
+		display: inline;
     }
 
 
@@ -380,6 +384,7 @@
         border-radius: 40px;
         width: 50%;
         margin-bottom: 9rem;
+		display: none;
     }
     #graphrite-icon {
         padding-left: 1rem;
@@ -430,6 +435,7 @@
         margin-top: 5rem;
         padding-right: 40rem;
         width: 65%;
+		display: none;
     }
     #Resume {
         height: auto;
@@ -464,7 +470,10 @@
         height: 10rem;
         width: 15rem;
         padding: 3rem;
-        margin: 3rem 28rem;;
+        margin-top: 3rem;
+		margin-bottom: 3rem;
+		margin-left: auto;
+		margin-right: auto;
         background-color: #202020;
         border-radius: 25px;
         justify-content:center;
@@ -564,7 +573,7 @@
     }
 
     #about-headshot {
-        background-image: url(../images/headshot.JPG);
+        background-image: url(../images/headshot.jpg);
         width: 35rem;
         height: 35rem;
         display: block;
@@ -742,7 +751,7 @@
         font-family: Oswald, serif;
         color: white;
         padding-left: 4rem;
-        text-align: right;
+        text-align: left;
     }
     #ntap-copy h3{
         width: 30rem;
@@ -763,7 +772,6 @@
         padding-top: 3rem;
         padding-bottom: 5rem;
         padding-right: 4rem;
-        padding-left: 4rem;
         margin-top: 3rem;
         margin-right: 1rem;
         border-bottom: white 1px solid;
@@ -775,6 +783,10 @@
         padding-right: 5rem;
         border-left: white 1px solid;
         border-top: white 1px solid;
+		display: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
     }
 
     #ppg-copy {
@@ -808,12 +820,13 @@
         padding-right: 5rem;
         border-right: white 1px solid;
         border-top: white 1px solid;
+		display: none;
     }
     #kands-copy {
         font-family: Oswald, serif;
         color: white;
         padding-left: 4rem;
-        text-align: right;
+        text-align: left;
     }
     #kands-copy h3{
         width: 30rem;
@@ -846,8 +859,8 @@
         padding-right: 5rem;
         border-left: white 1px solid;
         border-top: white 1px solid;
+		display: none;
     }
-
 
     #graphrite-copy {
         font-family: Oswald, serif;
@@ -889,6 +902,7 @@
         padding-right: 32rem;
         border-right: white 1px solid;
         border-top: white 1px solid;
+		display: none;
     }
 
     #graphrite-picture {
@@ -948,6 +962,7 @@
         padding-right: 5rem;
         border-left: white 1px solid;
         border-top: white 1px solid;
+		display: none;
     }
     #Resume {
         height: 25rem;
@@ -1092,7 +1107,7 @@
     }
 
     #about-headshot {
-        background-image: url(../images/headshot.JPG);
+        background-image: url(../images/headshot.jpg);
         width: 35rem;
         height: 35rem;
         display: block;
@@ -1269,7 +1284,6 @@
 	#ntap-copy {
         font-family: Oswald, serif;
         color: white;
-        padding-right: 4rem;
         text-align: right;
     }
     #ntap-copy h3{
@@ -1628,7 +1642,7 @@
     }
 
     #about-headshot {
-        background-image: url(../images/headshot.JPG);
+        background-image: url(../images/headshot.jpg);
         width: 35rem;
         height: 35rem;
         display: block;
